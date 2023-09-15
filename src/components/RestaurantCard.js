@@ -5,7 +5,7 @@ const RestaurantCards = (props) => {
     const {name, avgRating, costForTwo, cloudinaryImageId} = props?.resData?.info;
     
     return (
-    <div className="restaurant-card-container">
+    <div className="m-2">
         <img className="res-logo"
         src={Restaurant_IMG+ cloudinaryImageId}
         alt={Restaurant_IMG + "akajgetevooghwtznw56"}>
